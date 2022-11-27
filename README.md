@@ -9,3 +9,4 @@ JIAYE's digital resume project, following [ACG project vedio](https://www.youtub
 ## Second Steps
 - Bind Azure function with Azure Cosmos DB account
 - Bind backend function with frontend
+- Deploy the web on [Azure static website](https://azureresumeacg0.z6.web.core.windows.net)
