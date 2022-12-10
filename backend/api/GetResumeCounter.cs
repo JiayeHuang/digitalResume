@@ -26,7 +26,7 @@ namespace Company.Function
             updatedCounter = counter;
             updatedCounter.Count += 1;
 
-            var jsonToReturn = JsonConvert.SerializeObject(counter);
+            var jsonToReturn = JsonConvert.SerializeObject(updatedCounter);
             return new HttpResponseMessage(System.Net.HttpStatusCode.OK)
             {
                 Content = new StringContent(jsonToReturn, Encoding.UTF8, "application/json")
